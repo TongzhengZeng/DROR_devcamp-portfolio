@@ -27,4 +27,6 @@
 /config/master.key
 
 # I don't want to show my credentials. #CSOC 630, DROR, Lecture 44 practice.
-/config/credentials.yml.enc
+#/config/credentials.yml.enc
+# no need do this any more for Rails 5.2.  Since there is a master.key file ignored.
+# To edit the credentials,yml.enc. open an editor use the command: EDITOR=vim rails credentials:edit 
